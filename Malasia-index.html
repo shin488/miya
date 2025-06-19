@@ -7,40 +7,43 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #ffffff, #fff3e6);
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
       color: #1a1a1a;
       margin: 0;
       padding: 0;
       text-align: center;
-      overflow-x: hidden;
     }
     header {
-      background-color: #010066;
-      color: #ffd700;
-      padding: 3rem 0;
-      animation: fadeInDown 1.5s ease;
+      background-color: #002b5c;
+      color: #ffcc00;
+      padding: 3rem 1rem;
+      animation: fadeInDown 1.2s ease;
     }
     h1 {
       margin: 0;
       font-size: 3rem;
+      letter-spacing: 1px;
     }
     .content {
-      padding: 2rem;
-      animation: fadeIn 2s ease;
+      padding: 2.5rem 1.5rem;
+      max-width: 700px;
+      margin: auto;
+      animation: fadeIn 1.8s ease;
     }
-    .image-container {
-      margin: 2rem 0;
+    h2 {
+      color: #003366;
+      font-size: 2rem;
     }
-    .image-container img {
-      width: 80%;
-      max-width: 600px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+      line-height: 1.6;
     }
     .fact {
       font-style: italic;
-      margin-top: 1.5rem;
-      transition: color 0.3s;
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      transition: color 0.4s;
     }
     .fact:hover {
       color: #cc0000;
@@ -48,22 +51,23 @@
     button {
       background-color: #cc0000;
       color: white;
-      padding: 12px 24px;
+      padding: 12px 28px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
       font-size: 1rem;
-      margin-top: 1.5rem;
-      transition: background-color 0.3s;
+      margin-top: 1.8rem;
+      transition: background-color 0.3s, transform 0.2s;
     }
     button:hover {
       background-color: #990000;
+      transform: scale(1.05);
     }
     footer {
       margin-top: 4rem;
       font-size: 0.9rem;
       color: #666;
-      padding-bottom: 2rem;
+      padding: 2rem 1rem;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
@@ -85,10 +89,6 @@
     <h2>Capital City: Kuala Lumpur</h2>
     <p>Official Language: Malay (Bahasa Malaysia)</p>
     <p>Famous For: Multicultural heritage, vibrant cuisine, lush rainforests, and iconic landmarks like the Petronas Towers.</p>
-    
-    <div class="image-container">
-      <img src="https://example.com/placeholder-malaysia.jpg" alt="Beautiful Malaysia" />
-    </div>
 
     <div class="fact" id="funFact">
       Fun Fact: Malaysia is home to the world’s largest flower — the Rafflesia!
@@ -98,7 +98,7 @@
   </div>
 
   <footer>
-    Created with ❤️ to showcase Malaysia's beauty and spirit.
+    Created with ❤️ to celebrate Malaysia's vibrant soul and timeless charm.
   </footer>
 
   <script>
